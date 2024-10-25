@@ -1,0 +1,21 @@
+.headerBackground {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(83, 158, 213, 0.6544818611038166) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.btn-devis {
+  background-color: rgba(83, 158, 213, 0.6544818611038166);
+  border-color: transparent;
+  transition: transform 0.3s ease;
+  font-size: 1.5rem;
+}
+.btn-devis:hover {
+  transform: scale(1.1);
+  background-color: black;
+}
+footer {
+  background-color: rgba(83, 158, 213, 0.6544818611038166);
+}

@@ -1,0 +1,11 @@
+.modales {
+  display: flex;
+  justify-content: space-around;
+}
+.btn-modal {
+  background-color: rgba(83, 158, 213, 0.6544818611038166);
+  border: transparent;
+}
+.portrait2 {
+  border-radius: 10%;
+}
