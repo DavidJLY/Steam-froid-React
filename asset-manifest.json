@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/.github.io/steamfroidreact/static/css/main.3916fe24.css",
+    "main.js": "/.github.io/steamfroidreact/static/js/main.2d6536a4.js",
+    "static/media/ThomasRappel.jpg": "/.github.io/steamfroidreact/static/media/ThomasRappel.68efc476b053401c419f.jpg",
+    "static/media/gainable.jpg": "/.github.io/steamfroidreact/static/media/gainable.83db2ec95dba9dc54159.jpg",
+    "static/media/plomberie.jpg": "/.github.io/steamfroidreact/static/media/plomberie.ed6eab05d324954da527.jpg",
+    "static/media/portraitThomas.jpg": "/.github.io/steamfroidreact/static/media/portraitThomas.8ae44966e753bd3ca0a7.jpg",
+    "static/media/portraitThomas2.jpg": "/.github.io/steamfroidreact/static/media/portraitThomas2.df738ec321a186c4fcd5.jpg",
+    "static/media/clim.jpg": "/.github.io/steamfroidreact/static/media/clim.923f00065b00940df547.jpg",
+    "static/media/clim2.jpg": "/.github.io/steamfroidreact/static/media/clim2.559bd20ec0c1ec698434.jpg",
+    "static/media/logo.webp": "/.github.io/steamfroidreact/static/media/logo.6829e1c4cb98a82425d1.webp",
+    "index.html": "/.github.io/steamfroidreact/index.html",
+    "main.3916fe24.css.map": "/.github.io/steamfroidreact/static/css/main.3916fe24.css.map",
+    "main.2d6536a4.js.map": "/.github.io/steamfroidreact/static/js/main.2d6536a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3916fe24.css",
+    "static/js/main.2d6536a4.js"
+  ]
+}
