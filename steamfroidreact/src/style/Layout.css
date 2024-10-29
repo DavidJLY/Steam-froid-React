@@ -6,16 +6,28 @@
     rgba(255, 255, 255, 1) 100%
   );
 }
+
 .btn-devis {
-  background-color: rgba(83, 158, 213, 0.6544818611038166);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 4, 4, 1) 0%,
+    rgba(150, 148, 148, 0.6992997882746849) 98%,
+    rgba(210, 210, 212, 1) 100%
+  );
+  border: transparent;
   border-color: transparent;
   transition: transform 0.3s ease;
   font-size: 1.5rem;
 }
 .btn-devis:hover {
   transform: scale(1.1);
-  background-color: black;
 }
+
 footer {
-  background-color: rgba(83, 158, 213, 0.6544818611038166);
+}
+
+@media (max-width: 1024px) {
+  #logo {
+    width: 40%;
+  }
 }

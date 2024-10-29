@@ -1,11 +1,15 @@
-.modales {
-  display: flex;
-  justify-content: space-around;
-}
-.btn-modal {
+/* .btn-modal {
   background-color: rgba(83, 158, 213, 0.6544818611038166);
   border: transparent;
-}
-.portrait2 {
+} */
+/* .portrait2 {
   border-radius: 10%;
+  width: 20%;
+} */
+/* .activities-text {
+  border-right: solid 3px rgba(83, 158, 213, 0.6544818611038166);
+} */
+
+.activities-section {
+  border-top: 1px solid rgba(83, 158, 213, 0.6544818611038166);
 }

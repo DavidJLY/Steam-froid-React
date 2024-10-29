@@ -7,16 +7,39 @@ import { Title } from "./Components/Title";
 import { Activities } from "./Components/Activities";
 import { CarouselSection } from "./Components/CarouselSection";
 import { Engage } from "./Components/Engage";
+import { ModalFroid, ModalPlombElec } from "./Components/Modales";
+
+// function App() {
+//   return (
+//     <div className="container-fluid">
+//       <Header />
+//       <Title />
+//       <About />
+//       <Activities />
+//       <CarouselSection />
+//       <Engage />
+//       <Footer />
+//     </div>
+//   );
+// }
 
 function App() {
   return (
-    <div className="container-fluid background">
+    <div className="container-fluid d-flex flex-column">
       <Header />
-      <Title />
-      <About />
-      <Activities />
-      <CarouselSection />
-      <Engage />
+      <div className="flex-grow-1 col-md-10 content-section">
+        <Title />
+        <About />
+        <Activities />
+      </div>
+      <div className="fixed-section row justify-content-evenly">
+        <ModalFroid />
+        <ModalPlombElec />
+        <CarouselSection />
+      </div>
+      <div className="engage-section col-md-10">
+        <Engage />
+      </div>
       <Footer />
     </div>
   );

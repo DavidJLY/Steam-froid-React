@@ -2,3 +2,56 @@ body {
   font-family: Poiret-one;
   font-size: larger;
 }
+.fixed-section {
+  position: fixed;
+  top: 20%;
+  left: 0;
+  width: 25%;
+  height: 70vh;
+}
+
+.content-section {
+  margin-left: 20%;
+  margin-top: 150px;
+}
+
+.engage-section {
+  margin-left: 20%;
+}
+
+@media (max-width: 1024px) {
+  .fixed-section {
+    position: static;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    border-top: 1px solid rgba(83, 158, 213, 0.6544818611038166);
+    padding-top: 60px;
+  }
+  .content-section {
+    margin: auto;
+    margin-top: 150px;
+    padding-bottom: 60px;
+  }
+  .engage-section {
+    margin: auto;
+  }
+}
+
+@media (max-width: 624px) {
+  .content-section {
+    margin-top: 80px;
+  }
+}
+
+/* Content-section - Boutons d'ouverture des modales */
+.btn-modal {
+  /* background-color: rgba(83, 158, 213, 0.6544818611038166); */
+  background: linear-gradient(
+    90deg,
+    rgba(4, 4, 4, 1) 0%,
+    rgba(150, 148, 148, 0.6992997882746849) 98%,
+    rgba(210, 210, 212, 1) 100%
+  );
+  border: transparent;
+}

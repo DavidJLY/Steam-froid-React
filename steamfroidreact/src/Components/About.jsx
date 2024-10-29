@@ -5,15 +5,15 @@ import portraitThomas from "../img/portraitThomas.jpg";
 export function About() {
   return (
     <div>
-      <section className="col-11 col-md-9 mx-auto mb-5 ">
+      <section className="pb-5">
         <h2 className="title text-center">A propos de Steam Froid</h2>
-        <div className="row mt-3 d-flex justify-content-center align-items-center">
+        <div className="mt-3 d-flex flex-column flex-md-row">
           <img
             src={portraitThomas}
             alt="portrait"
-            className="portrait me-md-5"
+            className="portrait col-6 mx-auto col-md-3 me-md-5"
           />
-          <p className="col-12 col-md-6 ms-md-5 mt-3">
+          <p className="col-11 col-md-6 mt-md-5 ms-md-5 text-md-center mt-3 mx-auto about-text">
             Société indépendante gérée par M. Thomas FERET Je suis issu d'un BTS
             maintenance industrielle. Après 10 ans d'expérience en maintenance
             (électricité, automatisme, mécanique, pneumatique, hydraulique),

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
-import blocMural from "../img/blocMural.jpg";
-import plomberie from "../img/plomberie.jpg";
+// import blocMural from "../img/blocMural.jpg";
+// import plomberie from "../img/plomberie.jpg";
 
 export function ModalFroid() {
   const [show, setShow] = useState(false);
@@ -10,17 +10,13 @@ export function ModalFroid() {
   const handleShow = () => setShow(true);
 
   return (
-    <div className="row col-md-5">
-      <img
-        src={blocMural}
-        alt="Climatisation"
-        className="img-thumbnail col-md-10 mx-auto"
-      />
+    <div className="d-flex flex-column">
+      {/* <img src={blocMural} alt="Climatisation" className="img-thumbnail" /> */}
 
       {/* Bouton pour ouvrir la modale */}
       <Button
         variant="primary"
-        className="w-50 mx-auto btn-modal"
+        className="mt-3 btn-modal w-50 mx-auto"
         onClick={handleShow}
       >
         Climatisation
@@ -64,12 +60,8 @@ export function ModalPlombElec() {
   const handleShow = () => setShow(true);
 
   return (
-    <div className="row col-md-5">
-      <img
-        src={plomberie}
-        alt="Plomberie"
-        className="img-thumbnail col-10 mx-auto"
-      />
+    <div className="d-flex flex-column mt-5 mb-5">
+      {/* <img src={plomberie} alt="Plomberie" className="img-thumbnail" /> */}
       {/* Bouton pour ouvrir la modale */}
       <Button
         variant="primary"

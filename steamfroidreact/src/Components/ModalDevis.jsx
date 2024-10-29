@@ -8,7 +8,7 @@ export function ModalDevis() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div>
+    <div className="me-5">
       {/* Bouton pour ouvrir la modale */}
       <Button className="btn-devis" onClick={handleShow}>
         Faire un devis en ligne
